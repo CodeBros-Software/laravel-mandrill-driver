@@ -1,6 +1,6 @@
 {
-    "name": "therobfonz/laravel-mandrill-driver",
-    "description": "Mandrill Driver for Laravel 9+",
+    "name": "codebros-nl/laravel-mandrill-driver",
+    "description": "Mandrill Driver for Laravel 10+",
     "type": "library",
     "keywords": [
         "Laravel",
@@ -9,17 +9,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Rob Fonseca",
-            "email": "robfonseca@gmail.com"
-        },
-        {
-            "name": "Brandon Ferens",
-            "email": "brandon@kirschbaumdevelopment.com"
+            "name": "Norman Reinhard",
+            "email": "norman@codebros.nl"
         }
     ],
     "require": {
-        "php": "^8.1",
-        "illuminate/support": "^10.0",
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0",
         "mailchimp/transactional": "^1.0",
         "symfony/mailer": "^6.0"
     },
